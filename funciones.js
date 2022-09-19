@@ -1,12 +1,14 @@
 debugger
 
+let edad= parseInt(prompt("Ingrese su edad"));
+while (edad < 18) {
+    console.log("No puede ingresar, vuelva cuando sea mayor de edad!");
+    edad= parseInt(prompt("Ingrese su edad"));
+}
 
 let username = prompt("Ingrese su nombre de usuario")
 
-let age = parseInt(prompt("Ingrese su edad"))
 
-
-if  (age >= "18"){
    
  
      console.log("Bienvenido", username)
@@ -38,9 +40,6 @@ if  (age >= "18"){
 }
      
     
-}  else  {
-    alert("No puede ingresar, vuelva cuando sea mayor de edad.")
-} 
 
 
 
